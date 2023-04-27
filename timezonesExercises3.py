@@ -3,7 +3,7 @@ from datetime import datetime
 from dateutil import tz
 
 # Set up birthdate with timezone
-birthdate = datetime(1972, 7, 11, 10, 0, tzinfo=tz.gettz('Europe/Berlin'))
+birthdate = datetime(1972, 7, 11, 1, 15, tzinfo=tz.gettz('Europe/Berlin'))
 
 # Convert to New Zealand time
 nz_tz = tz.gettz('Pacific/Auckland')
